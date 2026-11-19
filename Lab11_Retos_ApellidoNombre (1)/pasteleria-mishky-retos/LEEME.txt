@@ -1,0 +1,19 @@
+PASTELERÍA MISHKY – LABORATORIO 11: RETOS DE AMPLIACIÓN
+
+Proyecto independiente basado en el catálogo original de 16 productos y sus fotografías.
+
+CÓMO EJECUTAR
+1. Extrae esta carpeta completa.
+2. Abre la carpeta pasteleria-mishky-retos en Visual Studio Code.
+3. Instala/activa Live Server si aún no lo tienes.
+4. Clic derecho en catalogo.html > Open with Live Server.
+5. Prueba filtros, búsqueda, orden, disponibilidad, enlaces con #categoría y ventana de detalles.
+
+ARCHIVOS PRINCIPALES
+- catalogo.html: estructura, controles y diálogo.
+- data/productos.json: los 16 productos originales.
+- js/catalogo.js: lógica de retos R1–R10.
+- css/estilos.css: estilos del catálogo, skeleton y diálogo.
+- img/productos/: fotografías originales y variantes 300/600/900 para srcset.
+
+NOTA: no abrir catalogo.html con doble clic; usar Live Server para que fetch() pueda leer el JSON. No se incluyen node_modules.
